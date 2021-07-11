@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="1b727d9095af1e30faf20711ea9b977dcec48b2352272ea3c16d6e355c9ade41.html">Falabella</a></span>
+                > <span class="truncate-60"><a
+                    href="bd6ce99f5a6aab504857b8d9739be21441efee949422a58a42266d33584aefc6.html">Add a product to the bag </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-07-2021 11:43</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Falabella </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a web user
+I want to use falabella website
+to make a purchase
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Add a product to the bag
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="232e48a4dbe2d06bc6b55b7400bc8a1fe6ed05f8de5706f0feca42aa1593cf90.png" title="Given that elkin wants to choose a product" width="1366"/>
+                <img src="45abd03ee9821d6beb96f53e106a991a942d291e65586d8b618632ef7f4d34c2.png" title="Elkin opens the browser on falabella home page" width="1366"/>
+                <img src="45abd03ee9821d6beb96f53e106a991a942d291e65586d8b618632ef7f4d34c2.png" title="Elkin opens the Falabella home page" width="1366"/>
+                <img src="45abd03ee9821d6beb96f53e106a991a942d291e65586d8b618632ef7f4d34c2.png" title="Elkin clicks on Cerrar primer mensaje" width="1366"/>
+                <img src="ccc6f4b71ec6398eca19088291619e974a398ede18f47f1b6aef6e9e02007ff0.png" title="Elkin clicks on Cerrar primer mensaje" width="1366"/>
+                <img src="ccc6f4b71ec6398eca19088291619e974a398ede18f47f1b6aef6e9e02007ff0.png" title="Elkin clicks on Boton Categorias" width="1366"/>
+                <img src="1721f48c423a9bd87d38d2b5c6da9b42ada4f98eda4294df0c7d379aa78e5be2.png" title="Elkin clicks on Boton Categorias" width="1366"/>
+                <img src="17361ff3f00a51e3dcf57584cc6705def1f4975f528bd6afae65bc35ffd01b55.png" title="Elkin clicks on Boton venta rapida" width="1366"/>
+                <img src="adcb665fba52b7ac10efd381297a991c56c79ce4b15659571dd1661525b8127e.png" title="Elkin clicks on Boton venta rapida" width="1366"/>
+                <img src="c0fee09c51a8a20449a5af23bed2ceb58fc1c0374a62b6c1e1bd5ac9b8f5ae43.png" title="Elkin clicks on Celulares" width="1366"/>
+                <img src="232e48a4dbe2d06bc6b55b7400bc8a1fe6ed05f8de5706f0feca42aa1593cf90.png" title="Elkin clicks on Celulares" width="1366"/>
+                <img src="b34934e84fe0e7fa139f93c6976a4635a470af4c36ec7aa38009ae450501ce22.png" title="When he add a product to the bag" width="1366"/>
+                <img src="eb311f03ee014cf308c862e4e5a43e4f1121851a15c807852ece1d458a4ff72f.png" title="Elkin clicks on selecionar Celular" width="1366"/>
+                <img src="9ab65ca7368955ab24867a9f6a301cb71efc7b8e68cb615f09f76bbad37dc07a.png" title="Elkin clicks on agregar bolsa" width="1366"/>
+                <img src="17731d25241030917fd067ff7a5a03fed8e9f9971281bd3fdbbb607b16ee0072.png" title="Elkin clicks on agregar bolsa" width="1366"/>
+                <img src="17731d25241030917fd067ff7a5a03fed8e9f9971281bd3fdbbb607b16ee0072.png" title="Elkin clicks on ver bolsa" width="1366"/>
+                <img src="987f6ef4a50e41f12a67cf986998165dd6ff3b857b4348efa1fe6082a9110073.png" title="Elkin clicks on ver bolsa" width="1366"/>
+                <img src="580909854833709739605f1fb70e0f234a8ebb59ccd6fb04e3254bfeb41f46f9.png" title="Then he should see the product in the bag" width="1366"/>
+                <img src="c5259b62fe80b7cc7e34fc75ed26108d40d32b9a0ef929ccea9d1f656be4674a.png" title="Elkin clicks on Boton ir a comprar" width="1366"/>
+                <img src="11d862bec22ccbf69566ee07b330f2810bb33f6ac071ed031cee9dcd434781a6.png" title="Elkin clicks on seleccionar departamento" width="1366"/>
+                <img src="4a45bc0d138fb3c68bcc7da9650baa49642ed40b25640244363500f24a8809db.png" title="Elkin clicks on seleccionar departamento" width="1366"/>
+                <img src="4a45bc0d138fb3c68bcc7da9650baa49642ed40b25640244363500f24a8809db.png" title="Elkin clicks on seleccionar antioquia" width="1366"/>
+                <img src="4a45bc0d138fb3c68bcc7da9650baa49642ed40b25640244363500f24a8809db.png" title="Elkin clicks on seleccionar ciudades" width="1366"/>
+                <img src="55af5a56ada9b4072a66e69e39695c01d253541cb5dec06050b727545b253317.png" title="Elkin clicks on seleccionar ciudades" width="1366"/>
+                <img src="55af5a56ada9b4072a66e69e39695c01d253541cb5dec06050b727545b253317.png" title="Elkin clicks on seleccionar medellin" width="1366"/>
+                <img src="0716b860fcb80519eb175fa2a55b941da3aa8569b37071c9036199b92909970a.png" title="Elkin clicks on seleccionar medellin" width="1366"/>
+                <img src="0716b860fcb80519eb175fa2a55b941da3aa8569b37071c9036199b92909970a.png" title="Elkin clicks on seleccionar Barrios" width="1366"/>
+                <img src="72b91cc80fdf3e64fa99fe93639b2327a4549440e799a7b97d4460856b8fa549.png" title="Elkin clicks on seleccionar Barrios" width="1366"/>
+                <img src="72b91cc80fdf3e64fa99fe93639b2327a4549440e799a7b97d4460856b8fa549.png" title="Elkin clicks on seleccionar medellin" width="1366"/>
+                <img src="aca997e62bf6b78b371beebaf1bbdb1a71c0157706f297a92b2b3f9e9cb64958.png" title="Elkin clicks on seleccionar medellin" width="1366"/>
+                <img src="9d3a9e9df3c3eecba963ef4eb1635cb1380b30d1beb40c7d7e19d70f2e306a6a.png" title="Elkin clicks on boton continuar" width="1366"/>
+                <img src="e723d77e2e741567f0dccb61b49b413591f4ef53f3e40349d4ccceb8c2a10963.png" title="Elkin clicks on boton continuar" width="1366"/>
+                <img src="3de1bc10290899f4d821a0ae2fc3dab883dd746f5660723326723155b7350271.png" title="Elkin clicks on seleccionar retirar tu compra" width="1366"/>
+                <img src="199ca2f301fbf25b817285a78fdc32a2725143a764a2dd93a2a0fe214ba84de2.png" title="Elkin clicks on seleccionar retirar tu compra" width="1366"/>
+                <img src="23c4c4bbaed931ac274f58de948e0853548d27dd29a453f4ebdd06985db2830b.png" title="Elkin clicks on seleccionar tienda" width="1366"/>
+                <img src="7ad2356aea4b7aba52d788c6b87236eab618f11cd86faea75c83c78230c4b841.png" title="Elkin clicks on seleccionar tienda" width="1366"/>
+                <img src="73d8b043fbd58fc0108412a609605568209d533949a7f9d1bb9dc9608b77c0b1.png" title="Elkin clicks on seleccionar boton continuar" width="1366"/>
+                <img src="426d72e5c2231a03931840228fe8ad36b655da246559484848711c9ad1072ffa.png" title="Elkin clicks on seleccionar boton continuar: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
